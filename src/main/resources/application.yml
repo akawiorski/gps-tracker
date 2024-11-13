@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+aws:
+  secret:
+    region: us-east-1
+    access-key: test
+    secret-key: test
+  dynamodb:
+    endpoint: http://localhost:4566
+  sqs:
+    endpoint: http://localhost:4566
+    queue-name: geofence-triggered-queue
